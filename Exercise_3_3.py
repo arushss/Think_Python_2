@@ -1,9 +1,9 @@
 # Program that prints a grid
 def print1():
-    print('+', 4 * '-', '+', 4 * '-', '+')
+    print('+', '- - - -', '+', '- - - -', '+')
 
 def print2():
-    print('|', 4 * ' ', '|', 4 * ' ', '|')
+    print('|', '       ', '|', '       ', '|')
 
 def grid():
     print1()
