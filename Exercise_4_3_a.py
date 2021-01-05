@@ -1,0 +1,11 @@
+import turtle
+bob = turtle.Turtle()
+def square(t):
+    for i in range(4):
+        t.fd(100)
+        t.lt(90)
+    print(bob)
+    turtle.mainloop()
+
+
+square(bob)
